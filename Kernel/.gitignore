@@ -94,3 +94,5 @@ _tool
 !fs/rfs/linux_debug.o
 !fs/rfs/natives.o
 
+!drivers/fsr/Core/*/*.o
+
