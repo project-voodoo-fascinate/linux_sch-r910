@@ -46,7 +46,7 @@ Module.symvers
 # Generated include files
 #
 include/asm
-include/asm-*
+include/asm-arm
 include/config
 include/linux/autoconf.h
 include/linux/compile.h
@@ -77,3 +77,20 @@ GTAGS
 \#*#
 _t32
 _tool
+
+# Samsung proprietary stuff
+!fs/rfs/*/*/*/*.o
+!fs/rfs/*/*/*.o
+!fs/rfs/*/*.o
+!fs/rfs/linux_init_glue.o
+!fs/rfs/linux_rfs_api.o
+!fs/rfs/linux_dir.o
+!fs/rfs/linux_vcb.o
+!fs/rfs/linux_file.o
+!fs/rfs/linux_bcache.o
+!fs/rfs/linux_vnode.o
+!fs/rfs/linux_volume.o
+!fs/rfs/linux_fcb.o
+!fs/rfs/linux_debug.o
+!fs/rfs/natives.o
+
